@@ -23,6 +23,10 @@ public class YouAreEll {
         System.out.println(urlhandler.MakeURLCall("/messages", "GET", ""));
     }
 
+    private String MakeURLCall(String s, String get, String s1) {
+        return s + " " + get + " " + s1;
+    }
+
     public String get_ids() {
         return tt.makecall("/ids", "GET", "");
     }
